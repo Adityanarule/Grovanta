@@ -1,0 +1,75 @@
+# ============================
+# Django / Python
+# ============================
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# ============================
+# Virtual Environments
+# ============================
+env/
+venv/
+ENV/
+.venv/
+.env/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================
+# Environment Variables / Secrets
+# ============================
+.env
+.env.*
+!.env.example
+secret_key.py
+
+# ============================
+# Static & Media (optional)
+# ============================
+# Uncomment these if you don't want to push uploaded files:
+# media/
+# staticfiles/
+# static_root/
+
+# ============================
+# IDE / Editor
+# ============================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================
+# OS Files
+# ============================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ============================
+# Testing / Coverage
+# ============================
+.coverage
+htmlcov/
+.tox/
+.pytest_cache/
